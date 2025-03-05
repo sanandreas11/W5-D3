@@ -13,10 +13,10 @@ button {
   color: #622406;
   border: none;
   text-align: center;
-  padding: 1em 2em;
+  white-space: nowrap;
   border-radius: 16px;
   margin: 1em;
-  width: 15%;
+  width: 30%;
 }
 
 .shop-button {
@@ -24,12 +24,10 @@ button {
   justify-content: center;
   font-weight: bolder;
   align-items: center;
-  order: 2;
+  order: -1;
   width: 70%;
 }
-.sub {
-  order: 1;
-}
+
 .shop-button img {
   width: 20%;
 }
@@ -77,4 +75,8 @@ p {
 h1 {
   text-align: center;
   color: #622406;
+}
+/* essay */
+.essay {
+  text-align: center;
 }
